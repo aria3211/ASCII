@@ -1,12 +1,28 @@
+# include <iostream>
 
-#include <iostream>
-#include <stdlib.h>
+using namespace std;
 
-#include "Foo.h"
+
 int main()
 {
-  Foo d = Foo();
-  std::cout<< d.doSomething()<<std::endl;
 
-  return 0;
+
+  for (int i = 33;  i<=255; ++i ){
+
+
+      cout <<  "ASCII Number " << i <<" is : "<<(char)i << "  ";
+
+      cout <<  endl;
+
+
+  }
+
+
+
+
+
+
+
+
+
 }
